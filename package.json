@@ -1,0 +1,23 @@
+{
+  "name": "duoduoke-node-sdk",
+  "description": "promise based pinduoduo open node sdk",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-plugin-node": "^8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "qs": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everywill/duoduoke-node-sdk.git"
+  },
+  "author": "everywill",
+  "license": "MIT"
+}
