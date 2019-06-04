@@ -1,19 +1,19 @@
-# duoduoke-node-client
+# duoduoke-node-sdk
 拼多多开放平台多多客node sdk，欢迎issue和pr。
 
 #### 安装
 使用npm:
 ```
-npm i duoduoke-node-client -S
+npm i duoduoke-node-sdk -S
 ```
 或者yarn:
 ```
-yarn add duoduoke-node-client
+yarn add duoduoke-node-sdk
 ```
 
 #### 引入文件
 ```
-const PddClient = require('duoduoke-node-client')
+const PddClient = require('duoduoke-node-sdk')
 ```
 
 #### 配置
@@ -22,7 +22,7 @@ const PddClient = require('duoduoke-node-client')
 const client = new PddClient({
   clientId: 'your client_id',
   clientSecret: 'your client_secret',
-  url: 'pinduoduo open endpoint', // 默认为 http://gw-api.pinduoduo.com/api/router
+  endpoint: 'pinduoduo open endpoint', // 默认为 http://gw-api.pinduoduo.com/api/router
 })
 ```
 
