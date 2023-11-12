@@ -10,7 +10,7 @@
     "eslint-plugin-node": "^8.0.0"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "crypto-js": "^4.2.0",
     "qs": "^6.6.0"
   },
